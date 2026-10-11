@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profil Mahasiswa</title>
+</head>
+<body>
+
+    
+    <header>
+        <h1>Profil Mahasiswa</h1>
+    </header>
+
+    <main>
+        <section id="profil">
+            <h2>Data Diri</h2>
+            <!-- Foto Profil (Ganti src dengan path foto Anda) -->
+            <img src="gambar/gondrong.jpeg" alt="Foto Profil Mahasiswa" width="125">
+            
+            <p>Perkenalkan,Saya adalah seorang mahasiswa yang tertarik dengan pengembangan web dan teknologi informasi. Saya berkomitmen untuk terus belajar dan mengasah keterampilan pemrograman saya.</p>
+            
+            <h3>Hobi Saya:</h3>
+            <ul>
+                <li>Bermain Mobile Legend</li>
+                <li>Pake Rexona</li>
+                <li>Joki Drag</li>
+            </ul>
+
+            <p>Kunjungi website kampus saya di: 
+                <a href="https://umpwr.ac.id" target="_blank" rel="noopener noreferrer">Website Kampus</a>
+            </p>
+        </section>
+
+        <hr>
+
+      
+        <section id="mata-kuliah">
+            <h2>Daftar Mata Kuliah</h2>
+            <table border="1" cellpadding="8" cellspacing="0">
+                <thead>
+                    <tr>
+                        <th>No</th>
+                        <th>Kode MK</th>
+                        <th>Nama Mata Kuliah</th>
+                        <th>SKS</th>
+                        <th>Semester</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>MK001</td>
+                        <td>Pemrograman Web</td>
+                        <td>3</td>
+                        <td>2</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>MK002</td>
+                        <td>Basis Data</td>
+                        <td>3</td>
+                        <td>2</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>MK003</td>
+                        <td>Algoritma & Pemrograman</td>
+                        <td>2</td>
+                        <td>1</td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>MK004</td>
+                        <td>Jaringan Komputer</td>
+                        <td>3</td>
+                        <td>3</td>
+                    </tr>
+                    <tr>
+                        <td>5</td>
+                        <td>MK005</td>
+                        <td>Sistem Operasi</td>
+                        <td>3</td>
+                        <td>3</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <hr>
+
+      
+        <section id="kontak">
+            <h2>Form Kontak</h2>
+            <form action="#" method="POST">
+                <div>
+                    <label for="nama">Nama:</label><br>
+                    <input type="text" id="nama" name="nama" required>
+                </div>
+                <br>
+                <div>
+                    <label for="email">Email:</label><br>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <br>
+                <div>
+                    <label>Jenis Kelamin:</label><br>
+                    <input type="radio" id="pria" name="jenis_kelamin" value="Laki-laki" required>
+                    <label for="pria">Laki-laki</label>
+                    <input type="radio" id="wanita" name="jenis_kelamin" value="Perempuan">
+                    <label for="wanita">Perempuan</label>
+                </div>
+                <br>
+                <div>
+                    <button type="submit">Kirim</button>
+                </div>
+            </form>
+        </section>
+    </main>
+
+</body>
+</html>
